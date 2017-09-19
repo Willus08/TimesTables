@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">TimesTables</string>
+    <string name="equals">=</string>
+    <string name="times">X</string>
+</resources>
