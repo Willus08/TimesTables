@@ -7,7 +7,7 @@ import helpme_productions.com.timestables.BasePresenter;
 import helpme_productions.com.timestables.BaseView;
 import helpme_productions.com.timestables.model.Multiples;
 
-public interface MainActivityContract {
+interface MainActivityContract {
     interface View extends BaseView{
         void setupAdapter(List<Multiples> multiplesList);
     }

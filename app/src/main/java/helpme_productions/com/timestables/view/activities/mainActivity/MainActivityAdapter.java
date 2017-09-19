@@ -35,9 +35,12 @@ class MainActivityAdapter extends RecyclerView.Adapter<MainActivityAdapter.ViewH
     public void onBindViewHolder(ViewHolder holder, int position) {
         Multiples multiples = multiplesList.get(position);
         Log.d(TAG, "onBindViewHolder: " + multiples.getFirst());
-        holder.firstNum.setText(""+multiples.getFirst());
-        holder.secondNum.setText(""+multiples.getSecond());
-        holder.product.setText(""+multiples.getProduct());
+        String firstNumber = ""+ multiples.getFirst();
+        String secondNumber = "" + multiples.getSecond();
+        String product = "" + multiples.getProduct();
+        holder.firstNum.setText(firstNumber);
+        holder.secondNum.setText(secondNumber);
+        holder.product.setText(product);
 
 
 

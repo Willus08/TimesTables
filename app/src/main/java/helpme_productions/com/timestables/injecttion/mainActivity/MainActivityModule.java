@@ -5,9 +5,9 @@ import dagger.Provides;
 import helpme_productions.com.timestables.view.activities.mainActivity.MainActivityPresenter;
 
 @Module
-public class MainActivityModule {
+class MainActivityModule {
     @Provides
-    public MainActivityPresenter mainActivityPresenterProvider(){
+    MainActivityPresenter mainActivityPresenterProvider(){
         return new MainActivityPresenter();
     }
 }
